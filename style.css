@@ -1,12 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    
     margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 .header-color{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 80px;
 }
@@ -36,4 +42,28 @@ p{
     background-image: url(assets/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experince{
+    background-image: url(assets/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+   
+}
+.skills{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#pro-web-developer{
+    border-left: 7px solid tomato;
+}
+#junior-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
