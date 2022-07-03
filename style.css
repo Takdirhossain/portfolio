@@ -8,6 +8,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .header-section{
     width: 50%;
@@ -15,6 +16,9 @@ section{
 }
 .header-section img {
     width: 80%;
+}
+p{
+    text-align: justify;
 }
 .hireme-button{
     text-decoration: none;
@@ -27,4 +31,9 @@ section{
 .top-section{
     background-image: url(assets/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(assets/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
